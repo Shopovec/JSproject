@@ -2,6 +2,8 @@
 let nameUser = prompt('Введите имя');
 let userYear = parseInt(prompt('Введите год рождения'));
 
+let Year = parseInt(prompt('Введите год '));
+
 let curYear = 2021;
 let result = curYear - userYear;
 
