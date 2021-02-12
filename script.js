@@ -1,4 +1,17 @@
 //Задача 1
+// let nameUser = prompt('Введите имя');
+// let userYear = parseInt(prompt('Введите год рождения'));
+//
+// let Year = parseInt(prompt('Введите год '));
+//
+// let curYear = 2021;
+// let result = curYear - userYear;
+//
+// document.write(nameUser + " тебе " + result + " лет");
+
+
+
+//Задача 2
 let nameUser = prompt('Введите имя');
 let userYear = parseInt(prompt('Введите год рождения'));
 
@@ -8,7 +21,6 @@ let curYear = 2021;
 let result = curYear - userYear;
 
 document.write(nameUser + " тебе " + result + " лет");
-
 
 // let num = parseInt(prompt('Введи номер'));
 //
