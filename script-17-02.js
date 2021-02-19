@@ -25,27 +25,53 @@ let res = '10';
 // alert('before block');
 
 
-let day = parseInt(prompt('введи день недели'));
-console.log(day);
-switch (day) {
-    case 1:
-        alert('понедельник');
-        break;
-    case 2:
-        alert('вторник');
-        break;
-    case 3:
-        alert('среда');
-        break;
-    case 5:
-        alert('пятница');
-        break;
-    default:
-        alert('не такого дня');
-        break;
+// let day = parseInt(prompt('введи день недели'));
+// console.log(day);
+// switch (day) {
+//     case 1:
+//         alert('понедельник');
+//         break;
+//     case 2:
+//         alert('вторник');
+//         break;
+//     case 3:
+//         alert('среда');
+//         break;
+//     case 4:
+//         alert('четверг');
+//         break;
+//     case 5:
+//         alert('пятница');
+//         break;
+//     case 6:
+//         alert('суббота');
+//         break;
+//     case 7:
+//         alert('воскресенье');
+//         break;
+//     default:
+//         alert('не такого дня');
+//         break;
+// }
+
+let day = parseInt(prompt('введите номер дня недели'));
+if (day == 1) {
+    alert('понедельник');
+} else if (day == 2) {
+    alert('вторник');
+} else if (day == 3) {
+    alert('среда');
+} else if (day == 4) {
+    alert('четверг');
+} else if (day == 5) {
+    alert('пятница');
+} else if (day == 6) {
+    alert('суббота');
+} else if (day == 7) {
+    alert('воскресенье');
+} else {
+    alert('нет такого номера недели')
 }
-
-
 
 
 //document.write(res);
